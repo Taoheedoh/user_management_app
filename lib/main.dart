@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:user_management_app/screens/add_user.dart';
 import 'package:user_management_app/screens/home_screen.dart';
 
 void main() {
@@ -10,9 +11,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
-    );
+    return MaterialApp(debugShowCheckedModeBanner: false, home: AddUser());
   }
 }
